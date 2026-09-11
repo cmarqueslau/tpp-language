@@ -14,7 +14,7 @@ tpp-language/
 ├── themes/
 │   └── tpp-color-theme.json        # Arquivo de tema de cores da extensão
 └── package.json                    # Manifesto principal da extensão
-
+```
 ## Como testar (desenvolvimento)
 
 1. Abra a pasta raiz do seu projeto (`tpp-language`) no VS Code.
@@ -25,5 +25,8 @@ tpp-language/
 ### Exemplo
 
 O código do arquivo `exemplo.tpp` deve ficar assim:
+
+<img width="524" height="405" alt="image" src="https://github.com/user-attachments/assets/3bbd8094-edff-40c2-a513-29a11322bfe6" />
+
 
 
