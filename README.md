@@ -1,4 +1,4 @@
-## About
+## Sobre
 Extensão para o Visual Studio Code que adiciona suporte a Syntax Highlighting para a linguagem TPP (.tpp), desenvolvida no contexto da disciplina de Compiladores. O projeto utiliza uma gramática TextMate para destacar palavras-chave, tipos, operadores, números, strings, comentários e outros elementos da linguagem.
 
 ## Estrutura de Arquivos
