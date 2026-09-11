@@ -1,0 +1,30 @@
+{
+    "scopeName": "source.tpp",
+    "patterns": [
+        {
+            "name": "comment.block.tpp",
+            "begin": "{",
+            "end": "}"
+        },
+        {
+            "name": "keyword.control.tpp",
+            "match": "\\b(se|então|senão|repita|até|fim|retorna)\\b"
+        },
+        {
+            "name": "storage.type.tpp",
+            "match": "\\b(inteiro|flutuante)\\b"
+        },
+        {
+            "name": "entity.name.function.tpp",
+            "match": "[a-zA-Z_][a-zA-Z0-9_]*(?=\\()"
+        },
+        {
+            "name": "keyword.operator.tpp",
+            "match": ":=|==|!=|<=|>=|\\+|-|\\*|/|=|<|>|<>|!"
+        },
+        {
+            "name": "entity.name.operator.custom-literal.number",
+            "match": "\\b[0-9]+\\b"
+        }
+    ]
+}

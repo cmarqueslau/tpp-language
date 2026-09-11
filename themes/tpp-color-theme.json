@@ -1,0 +1,41 @@
+{
+    "name": "TPP Colors",
+    "tokenColors": [
+        {
+            "scope": "comment.block.tpp",
+            "settings": {
+                "foreground": "#8db76e"
+            }
+        },
+        {
+            "scope": "keyword.control.tpp",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": "storage.type.tpp",
+            "settings": {
+                "foreground": "#ccce52"
+            }
+        },
+        {
+            "scope": "entity.name.function.tpp",
+            "settings": {
+                "foreground": "#92d2df"
+            }
+        },
+        {
+            "scope": "keyword.operator.tpp",
+            "settings": {
+                "foreground": "#ffeb9c"
+            }
+        },
+        {
+            "scope": "entity.name.operator.custom-literal.number",
+            "settings": {
+                "foreground": "#a88fc0"
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "tpp-language",
+    "description": "Syntax highlighting para a linguagem TPP",
+    "displayName": "TPP Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+     "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "tpp",
+                "aliases": [
+                    "TPP",
+                    "tpp"
+                ],
+                "extensions": [
+                    ".tpp"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tpp",
+                "scopeName": "source.tpp",
+                "path": "./syntaxes/tpp.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "TPP Colors",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tpp-color-theme.json"
+            }
+        ]
+    }
+}
